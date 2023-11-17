@@ -1,0 +1,33 @@
+body {
+    background-color: #FAE7C9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px;
+    margin: auto;
+    
+}
+
+h1 {
+    color: brown;
+    text-align: center;
+}
+
+p {
+    color: brown;
+    font-size: 20px;
+}
+
+hr {
+    border: 2px solid;
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+
+    background: transparent;
+    color: red;
+}
+
+a:hover {
+    color: black;
+}
