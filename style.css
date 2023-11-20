@@ -9,8 +9,13 @@ body {
 h1 {
     color: brown;
     text-align: center;
+    background-image: url('gambar/kucing\ putih.jpg');
 }
 
+.satu {
+    background-image: url('gambar/kucing putih.jpg');
+    background-repeat: no-repeat;
+}
 p {
     color: brown;
     font-size: 20px;
