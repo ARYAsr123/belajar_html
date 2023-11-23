@@ -37,26 +37,44 @@ a:hover {
     color: black;
 }
 
-th, td {
-    border-style: solid;
-    border-collapse: collapse;
-    background-color: black;
-    border-color: yellow;
-    color: white;   
-    text-align: center;
-    width: 20%;
-    
-}
-
 .dua {
     border-collapse: collapse;
     text-align: center;
     width: 20%;
 }
 
-.dua th, .dua td {
+.dua caption{
+    font-weight: bold;
+}
+
+.dua col {
+    background-color: pink;
+}
+
+th:nth-child(even), td:nth-child(even) {
+    color: black;
+    padding: 15px; 
+}
+
+.dua tr:hover {
+    border-bottom: 1px solid black;
+}
+
+.tiga {
+    border-collapse: collapse;
+    text-align: center;
+    width: 20%;
+    
+}
+
+.tiga th, .tiga td {
+    padding: 15px;
     border-style: solid;
     background-color: yellow;
     border-color: black;
     color: brown;
+}
+
+.tiga tr{
+    border-bottom: 1px solid black;
 }
