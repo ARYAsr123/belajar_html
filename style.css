@@ -78,3 +78,27 @@ th:nth-child(even), td:nth-child(even) {
 .tiga tr{
     border-bottom: 1px solid black;
 }
+
+.empat {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.empat li {
+    float: left;
+}
+
+.empat li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.empat li a:hover {
+    background-color: #111111;
+}
