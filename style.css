@@ -6,19 +6,22 @@ body {
     
 }
 
+
 h1 {
     color: brown;
     text-align: center;
     background-image: url('gambar/kucing\ putih.jpg');
+    height: 50px;
+}
+
+p {
+    color: brown;
+    font-size: 20px;
 }
 
 .satu {
     background-image: url('gambar/kucing putih.jpg');
     background-repeat: no-repeat;
-}
-p {
-    color: brown;
-    font-size: 20px;
 }
 
 hr {
@@ -101,4 +104,56 @@ th:nth-child(even), td:nth-child(even) {
 
 .empat li a:hover {
     background-color: #111111;
+}
+
+.lima {
+    display: flex;
+}
+
+.lima > div {
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.lima > div:nth-child(1) {
+    background-color: aqua;
+}
+
+.lima > div:nth-child(2) {
+    background-color: brown;
+}
+
+.lima h1 {
+    color: green;
+    background-image: none;
+}
+
+.lima p {
+    color: orange;
+}
+
+.grid-container {
+    display: flex;
+}
+
+.grid-container > div {
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.grid-container > div:nth-child(1) {
+    background-color: blue;
+}
+
+.grid-container > div:nth-child(2) {
+    background-color: grey;
+}
+
+.grid-container h2 {
+    color: yellowgreen;
+}
+
+.grid-container p {
+    color: black;
 }
