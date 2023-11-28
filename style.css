@@ -157,3 +157,7 @@ th:nth-child(even), td:nth-child(even) {
 .grid-container p {
     color: black;
 }
+
+#C1 {
+    color: purple;
+}
