@@ -162,10 +162,6 @@ th:nth-child(even), td:nth-child(even) {
     color: purple;
 }
 
-frame {
-    display: flex;
-}
-
 iframe {
     width: 30%;
     height: 100px;
