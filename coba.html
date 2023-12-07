@@ -8,7 +8,7 @@
 <link rel="icon" type="image/x-icon" href="gambar/kucing putih.jpg">
 </head>
 <body>
-    <h1>Frist Heading</h1>
+    <h1>First Heading</h1>
     <p>First paragraph</p>
     <hr>
     <a href="#bab1">lompat ke bab 1</a>
@@ -208,10 +208,92 @@
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore nihil est modi. Eaque, temporibus blanditiis! Illum et repudiandae, quasi harum sunt autem, corporis praesentium culpa eaque distinctio deleniti! Iure, alias!</p>
     <aside>
         <h4>judul</h4>
-        <p>isi</p>
+        <p>isi &#128507;</p>
     </aside>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ab eveniet odit cum asperiores repellendus sed maiores dignissimos dicta porro, quasi delectus modi neque assumenda, tempore ea? Natus, dolores ipsam.</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ab eveniet odit cum asperiores repellendus sed maiores dignissimos dicta porro, quasi delectus modi neque assumenda, tempore ea? Natus, dolores ipsam.</p>
+    <br>
 
+    <form>
+        <label for="fname">first name:</label>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">last name:</label>
+        <input type="text" id="lname" name="lname"><br>
+    </form>
+    <br>
+    <form>
+        <h2>pilih lah</h2>
+        <input type="radio" name="yes" id="yes">
+        <label for="yes">yes</label><br>
+        <input type="radio" name="no" id="no">
+        <label for="no">no</label>
+    </form>
+    <br>
+    <h2>checkbox</h2>
+    <form action="gambar/kucing putih.jpg" target="_blank" method="get">
+        <input type="checkbox" name="name" id="name" value="namaku">
+        <label for="name">nama:</label><br>
+        <input type="checkbox" name="kelas" id="kelas" value="kelasku">
+        <label for="kelas">kelas:</label><br>
+        <input type="submit" value="submit">
+    </form>
+    <br>
+    <h2>nyoba</h2>
+    <form action="gambar/kucing putih.jpg" target="_blank" method="post" autocomplete="on">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br><br>
+        <input type="submit">
+    </form>
+    <br>
+    <h2>elemen pilih</h2>
+    <form action="gambar/workplace.jpg" target="_blank">
+        <label for="games">pilih game:</label>
+        <select name="games" id="games" size="2" multiple>
+            <option value="lor">lor</option>
+            <option value="lol">lol</option>
+            <option value="tft">tft</option>
+        </select>
+        <input type="submit">
+    </form>
+    <br>
+    <h2>elemen text area</h2>
+    <form action="gambar/kucing putih.jpg" target="_blank">
+        <textarea name="puisi" id="puisi" cols="30" rows="10">Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptatum doloremque non quam. Cum delectus cupiditate veritatis dolorum debitis consectetur odit quo illum illo quis fugiat, a tempora dolores distinctio!</textarea>
+        <br><br>
+        <input type="submit">
+    </form>
+    <button type="button" onclick="alert('yoiiii...')">tombol</button>
+    <br>
+    <h2>elemen fieldset</h2>
+    <form action="gambar/kucing putih.jpg" target="_blank">
+        <fieldset>
+            <legend>dokumen</legend>
+            <label for="fname">nama:</label>
+            <input type="text" name="fname" id="fname"><br><br>
+            <input type="submit">
+        </fieldset>
+    </form>
+    <br>
+    <form action="gambar/workplace.jpg" target="_blank">
+        <label for="name">jenis motor:</label>
+        <input list="browsers" name="browser">
+        <datalist id="browsers">
+            <option value="motor metik"></option>
+            <option value="motor gigi"></option>
+            <option value="motor kopling"></option>
+        </datalist>
+        <input type="submit">
+    </form>
+    <br>
+    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        0
+        <input type="range" name="a" id="a" value="100">
+        +100
+        <input type="number" name="b" id="b" value="100">
+        =
+        <output name="x" for="a b"></output>
+    </form>
 </body>
 </html>
